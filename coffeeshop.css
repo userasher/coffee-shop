@@ -1,0 +1,328 @@
+body{
+	margin: 0px;
+	}
+
+
+
+.coffee-header{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: lightcoral;
+	z-index: 100;
+}
+
+.div-logo{
+	height: 100%;
+	text-align: center;
+	margin: 10px;
+	float: left;
+
+}
+
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+
+.coffee-nav{
+	float: right;
+	height: 100%;
+	
+}
+
+.coffee-nav a{
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	padding-right: 20px;
+	padding-top: 12%;
+	display: inline-block;
+
+}
+
+.site-content{
+	position: absolute;
+	width: 100%;
+	top: 78px;
+	
+
+}
+
+.image-content{
+	background-image: url("background-image.png");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
+
+.quote{
+	color: burlywood;
+	font-family: "Helvetica Neue";
+	position: relative;
+	top: 10%;
+
+}
+
+.card-list{
+	width: 100%;
+
+}
+
+#product{
+	text-align: center;
+	
+}
+
+
+.card{
+	width:22%;
+	padding: 1.5%;
+	heigth: 300px;
+	float: left;
+	text-align: center;
+}
+
+.card img{
+	width: 100%;
+
+
+}
+
+.order-section{
+	width: 100%;
+
+}
+
+#order{
+	text-align: center;
+}
+
+.FORM{
+	width: 200px;
+	margin: 0;
+}
+
+
+.container{
+	height: 500px;
+	border: 2px solid red;
+	position: relative;
+	width: 100%;
+	float: right;
+
+}
+
+.my_div{
+	height: 20%;
+	width: 24%;
+	background-color: blue;
+	margin: 1px;
+	display: inline-block;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+	.my_div
+	{
+		background-color: burlywood;
+		width: 98%;
+
+	}
+
+}
+
+
+
+
+
+
+.coffee-list{
+	list-style-type: square;
+}
+
+.available-coffee{
+	font-size: 17px;
+	height: 300px;
+	width: 300px;
+}
+.out-of-stock{
+
+	border-bottom-style: dotted;
+	border-bottom-width: 7px;
+	border-bottom-color: green;
+
+	font-size: 20px;
+	font-style: italic;
+	font-family: Georgia;
+	
+}
+
+#mocha{
+	color: grey;
+}
+
+.in-stock{
+	border: 7px double green;
+	}
+
+.ash{
+	height: 40%;
+	width: 20%;
+}
+
+.pricing-table{
+	width: 100%;
+	border: 2px solid green;
+	font-family: "Arial Black",Gadget, sans-serif;
+	text-align: center;
+}
+
+.caption-heading{
+	color: #2979a8;
+}
+
+th{
+	background-color: darkorange;
+	color: navajowhite;
+	
+}
+
+.table-data:hover{
+	background-color: lightgreen;
+	
+	color: darkgreen;
+}
+
+.color-data:hover{
+	background-color: red;
+	color: darkred;
+}
+.body-color{
+	background-color: burlywood;
+}
+
+.footer{
+	background-color: burlywood;
+	color: white;
+	height: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+{  universal selector 
+	font-size: 20px;
+}
+
+.myclass{
+	color: red;
+}
+
+.first-div{
+	padding: 0px 20px 0px 20px;
+	background-color: green;
+	
+	border: 1px solid red;
+	
+
+}
+
+
+
+
+
+#myid{
+	background-color: green;
+}
+
+.div{
+	height: 100px;
+	width: 100px;
+	border: 2px solid firebrick;
+}
+
+[href="https://www.boltiot.com"]{
+	color:  red;
+}
+
+h1,div{
+	color: seagreen;
+}
+
+.family-line span{
+	color: darkmagenta;
+}
+
+
+
+.div_1{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+
+
+.div_2{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	z-index: 0;
+}
+.img{
+	height: 100px;
+	float: left;
+
+	
+}
+
+.child1{
+	height: 100px;
+	width: 100px;
+	border: 2px solid green;
+	position:  absolute;
+	left: 30px;
+	top: 20px;
+
+
+}
+
+.child2{
+	height: 100px;
+	width: 100px;
+	border: 2px solid blue;
+	position:  relative;
+	left: 15px;
+	top: 40px;
+	}
+
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: lightcoral ;
+	position:  fixed;
+	bottom:  0px;
+
+}
+
+.sticky{
+	height: 100px;
+	background-color: green;
+	position: sticky;
+	top: 10px;
+
+ 
